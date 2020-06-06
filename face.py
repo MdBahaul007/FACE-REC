@@ -158,7 +158,7 @@ from os import listdir
 from os.path import isfile, join
 
 cric_images_dict = {"[0]": "MAHI"
-                  "[1]": "Virat"}
+                  "[1]": "VIRAT"}
 def draw_test(name, pred, im):
     m_images = cric_images_dict[str(pred)]
     BLACK = [0,0,0]
